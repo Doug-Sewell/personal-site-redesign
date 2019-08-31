@@ -1,0 +1,79 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    min-height:100vh;
+    background-color:#eff1c5;
+    font-family:'roboto';
+}
+
+.intro {
+    height:100vh;
+    display:flex;
+}
+
+.bio-card {
+    padding:1rem;
+    width:80%;
+    min-height:400px;
+    background-color:#035e7b;
+    margin:auto;
+    border-radius:5px;
+    border:2px solid white;
+    display:flex;
+    flex-direction:column;
+}
+
+.profile-photo {
+    height:150px;
+    border-radius:50%;
+    border:1px white solid;
+    display:block;
+    margin:auto;
+}
+
+.social-icons {
+    width:150px;
+    display:flex;
+    margin:auto;
+    justify-content:center;
+    margin-top:10px;
+}
+
+.fab {
+    margin:0px 5px;
+    font-size:21px;
+    color:#eff1c5;
+}
+
+.name {
+    text-align:center;
+    color:#eff1c5;
+    margin-top:5px;
+}
+
+.sub-header {
+    text-align:center;
+    color: #eff1c5;
+    letter-spacing:1.7px;
+}
+
+.intro-text {
+    color:#a2a77f;
+    filter:brightness(125%);
+    margin-top:10px;
+}
+
+@media(min-width:500px) {
+    .bio-card {
+        flex-direction:row;
+    }
+
+    .photo {
+        width:50%;
+        min-width:196px;
+    }
+}
